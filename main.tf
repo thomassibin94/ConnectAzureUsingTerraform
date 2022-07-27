@@ -17,7 +17,7 @@ resource "azurerm_resource_group" "rg" {
 }
 
 resource "azurerm_cosmosdb_account" "db" {
-  name = "tutorialcosmosdb2"
+  name = "tutorialcosmosdb3"
   location = azurerm_resource_group.rg.location
   resource_group_name = azurerm_resource_group.rg.name
   offer_type = "Standard"
